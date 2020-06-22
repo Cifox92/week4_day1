@@ -45,7 +45,7 @@
 - `npm install`*`module_name`*: instala el módulo indicado en el proyecto de NPM (equivalente a `npm i`*`module_name`*), lo que supone:
   - Referenciarlo en el archivo `package.json` bajo la propiedad `dependencies`
   - Incluir sus archivos en el directorio `node_modules`
-- `npm uninstall`*`module_name`*: instala el módulo indicado en el proyecto de NPM (equivalente a `npm u`*`module_name`*), lo que supone:
+- `npm uninstall`*`module_name`*: desinstala el módulo indicado en el proyecto de NPM, lo que supone:
   - Eliminarlo del archivo `package.json` bajo la propiedad `dependencies`
   - Excluir sus archivos del directorio `node_modules`
   
