@@ -1,0 +1,20 @@
+{
+  "name": "first-npm-project",
+  "version": "1.0.0",
+  "description": "First NPM application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "first",
+    "app",
+    "npm"
+  ],
+  "author": "Germán Álvarez",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "faker": "^4.1.0"
+  }
+}

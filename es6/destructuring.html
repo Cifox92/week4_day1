@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+
+        // OBJECT DESTRUCTURING 
+        let person = {
+            name: "Ironhacker",
+            age: 25,
+            favoriteMusic: "Metal",
+            address: {
+                street: "Super Cool St",
+                number: 123,
+                city: "Miami"
+            }
+        }
+
+        // let name = person.name;
+        // let age = person.age;
+        // let favoriteMusic = person.favoriteMusic;
+
+        const { name, age, favoriteMusic, address } = person
+
+        console.log(`Hello, ${name}.`);
+        console.log(`You are ${age} years old.`);
+        console.log(`Your favorite music is ${favoriteMusic}.`);
+        console.log(`Your street is ${address.street}.`)
+
+
+
+        // Objeto anidado
+        const { street, city } = person.address
+
+        console.log(`Your city is ${city}.`)
+
+
+
+
+
+        // ARRAY DESTRUCTURING 
+        const drinks = ['Cacaolat fresquito', 'Monster', 'Agua', 'Bailyes', 'Jagger']
+
+        // const drink1 = drinks[0]
+        // const drink2 = drinks[1]
+        // const drink3 = drinks[2]
+        const [drink1, drink2, drink3, , drink5] = drinks
+
+        console.log(drink1, drink2, drink3, drink5)
+
+
+
+    </script>
+</body>
+
+</html>
